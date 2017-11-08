@@ -10,17 +10,27 @@
 		4F2E1EB0D58A4E5D86B4A354 /* Pods_HelloKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFBFBEB527B6EB97DB3E29CB /* Pods_HelloKit.framework */; };
 		731B618A1EAE192B00E6C851 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731B61891EAE192B00E6C851 /* Media.xcassets */; };
 		731B618C1EAE1A3A00E6C851 /* HKUIImage+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B618B1EAE1A3A00E6C851 /* HKUIImage+WeChat.swift */; };
-		731B61961EAE1EB600E6C851 /* HKContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B61941EAE1EB600E6C851 /* HKContactViewController.swift */; };
-		731B61971EAE1EB600E6C851 /* HKContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 731B61951EAE1EB600E6C851 /* HKContactViewController.xib */; };
-		731B61AA1EB369EB00E6C851 /* HKDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B61A81EB369EB00E6C851 /* HKDiscoverViewController.swift */; };
-		731B61AB1EB369EB00E6C851 /* HKDiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 731B61A91EB369EB00E6C851 /* HKDiscoverViewController.xib */; };
-		731B61AE1EB36A0400E6C851 /* HKMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B61AC1EB36A0400E6C851 /* HKMeViewController.swift */; };
-		731B61AF1EB36A0400E6C851 /* HKMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 731B61AD1EB36A0400E6C851 /* HKMeViewController.xib */; };
 		73F2E8B61EA9E10E00C01989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F2E8B51EA9E10E00C01989 /* AppDelegate.swift */; };
 		73F2E8CC1EA9F80900C01989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73F2E8CA1EA9F80900C01989 /* Assets.xcassets */; };
 		73F2E8CF1EA9F86B00C01989 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73F2E8CE1EA9F86B00C01989 /* Default-568h@2x.png */; };
 		73F2E8D31EA9FB7C00C01989 /* HKTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F2E8D21EA9FB7C00C01989 /* HKTabBar.swift */; };
 		AC3F0E5F1F7F6C3A0013712C /* UIImageView+HKKingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F0E5E1F7F6C3A0013712C /* UIImageView+HKKingfisher.swift */; };
+		AC5276D01FB3017700335182 /* HKChatImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5276C61FB3017700335182 /* HKChatImageCell.swift */; };
+		AC5276D11FB3017700335182 /* HKChatImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5276C71FB3017700335182 /* HKChatImageCell.xib */; };
+		AC5276D21FB3017700335182 /* HKChatSystemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5276C81FB3017700335182 /* HKChatSystemCell.swift */; };
+		AC5276D31FB3017700335182 /* HKChatSystemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5276C91FB3017700335182 /* HKChatSystemCell.xib */; };
+		AC5276D41FB3017700335182 /* HKChatTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5276CA1FB3017700335182 /* HKChatTextCell.swift */; };
+		AC5276D51FB3017700335182 /* HKChatTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5276CB1FB3017700335182 /* HKChatTextCell.xib */; };
+		AC5276D61FB3017700335182 /* HKChatTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5276CC1FB3017700335182 /* HKChatTimeCell.swift */; };
+		AC5276D71FB3017700335182 /* HKChatTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5276CD1FB3017700335182 /* HKChatTimeCell.xib */; };
+		AC5276D81FB3017700335182 /* HKChatVoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5276CE1FB3017700335182 /* HKChatVoiceCell.swift */; };
+		AC5276D91FB3017700335182 /* HKChatVoiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5276CF1FB3017700335182 /* HKChatVoiceCell.xib */; };
+		AC5B16ED1F989365002A5C85 /* contact.json in Resources */ = {isa = PBXBuildFile; fileRef = AC5B16EC1F989365002A5C85 /* contact.json */; };
+		AC5B16F31F98A373002A5C85 /* HKDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B16EF1F98A373002A5C85 /* HKDiscoverViewController.swift */; };
+		AC5B16F41F98A373002A5C85 /* HKDiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5B16F01F98A373002A5C85 /* HKDiscoverViewController.xib */; };
+		AC5B16F61F98A389002A5C85 /* HKDiscoverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B16F51F98A389002A5C85 /* HKDiscoverModel.swift */; };
+		AC5B16F91F98A3A7002A5C85 /* HKDiscoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B16F71F98A3A7002A5C85 /* HKDiscoverTableViewCell.swift */; };
+		AC5B16FA1F98A3A7002A5C85 /* HKDiscoverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5B16F81F98A3A7002A5C85 /* HKDiscoverTableViewCell.xib */; };
 		AC7AC2531F8CD0D5003EB12E /* HKTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AC2521F8CD0D5003EB12E /* HKTypealias.swift */; };
 		AC972A241F7DEB5F00BFB4E0 /* NSObject+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC972A1F1F7DEB5F00BFB4E0 /* NSObject+String.swift */; };
 		AC972A251F7DEB5F00BFB4E0 /* UIColor+HelloKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC972A201F7DEB5F00BFB4E0 /* UIColor+HelloKit.swift */; };
@@ -37,9 +47,10 @@
 		ACB8299D1F8E064500BC8100 /* HKMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB829981F8E064500BC8100 /* HKMessageTableViewCell.xib */; };
 		ACB829A21F8E104400BC8100 /* HKChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB829A01F8E104400BC8100 /* HKChatViewController.swift */; };
 		ACB829A31F8E104400BC8100 /* HKChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB829A11F8E104400BC8100 /* HKChatViewController.xib */; };
+		ACC3063B1FB05E10001474E3 /* HKChatViewController+DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3063A1FB05E10001474E3 /* HKChatViewController+DataHandler.swift */; };
+		ACC3063D1FB070CE001474E3 /* UITableView+ChatAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3063C1FB070CE001474E3 /* UITableView+ChatAdditions.swift */; };
 		ACD91CA01F905D8100933693 /* HKChatViewController+CellEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD91C9F1F905D8100933693 /* HKChatViewController+CellEnums.swift */; };
 		ACD91CA21F908DD800933693 /* message.json in Resources */ = {isa = PBXBuildFile; fileRef = ACD91CA11F908DD800933693 /* message.json */; };
-		ACD9602C1F8F0BBD0025BFB6 /* HKChatBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9602A1F8F0BBD0025BFB6 /* HKChatBaseCell.swift */; };
 		ACD9602F1F8F0E290025BFB6 /* HKChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9602E1F8F0E290025BFB6 /* HKChatModel.swift */; };
 		ACD960311F8F10120025BFB6 /* HKChatAudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD960301F8F10120025BFB6 /* HKChatAudioModel.swift */; };
 		ACD960331F8F10510025BFB6 /* HKChatSubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD960321F8F10510025BFB6 /* HKChatSubModel.swift */; };
@@ -50,23 +61,32 @@
 		ACD960431F8F4A590025BFB6 /* HKAppMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD960421F8F4A590025BFB6 /* HKAppMacros.swift */; };
 		ACD960451F8F4DAC0025BFB6 /* HKYYTextLinePositionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD960441F8F4DAC0025BFB6 /* HKYYTextLinePositionModifier.swift */; };
 		ACD960471F8F55F20025BFB6 /* HKChatCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD960461F8F55F20025BFB6 /* HKChatCellDelegate.swift */; };
-		ACD960491F8F596B0025BFB6 /* HKChatImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD960481F8F596B0025BFB6 /* HKChatImageCell.swift */; };
-		ACD9604B1F8F59890025BFB6 /* HKChatSystemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9604A1F8F59890025BFB6 /* HKChatSystemCell.swift */; };
-		ACD9604D1F8F59980025BFB6 /* HKChatTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9604C1F8F59980025BFB6 /* HKChatTextCell.swift */; };
-		ACD9604F1F8F59A60025BFB6 /* HKChatTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9604E1F8F59A60025BFB6 /* HKChatTimeCell.swift */; };
-		ACD960511F8F59B10025BFB6 /* HKChatVoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD960501F8F59B10025BFB6 /* HKChatVoiceCell.swift */; };
+		ACDA6B761F99DB3200EB01A7 /* HKMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA6B721F99DB3200EB01A7 /* HKMeViewController.swift */; };
+		ACDA6B771F99DB3200EB01A7 /* HKMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDA6B731F99DB3200EB01A7 /* HKMeViewController.xib */; };
+		ACDA6B7E1F99DB9000EB01A7 /* HKMyDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA6B7C1F99DB9000EB01A7 /* HKMyDetailTableViewCell.swift */; };
+		ACDA6B7F1F99DB9000EB01A7 /* HKMyDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDA6B7D1F99DB9000EB01A7 /* HKMyDetailTableViewCell.xib */; };
+		ACEE9E8E1FA8831C006A61B2 /* HKChatViewController+Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE9E8D1FA8831C006A61B2 /* HKChatViewController+Subviews.swift */; };
+		ACEE9E901FA8853D006A61B2 /* HKChatViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE9E8F1FA8853D006A61B2 /* HKChatViewController+Delegate.swift */; };
+		ACEE9E921FA99933006A61B2 /* HKChatViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE9E911FA99933006A61B2 /* HKChatViewController+Keyboard.swift */; };
+		ACEE9E941FA9995E006A61B2 /* HKChatViewController+ActionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE9E931FA9995E006A61B2 /* HKChatViewController+ActionBar.swift */; };
+		ACEE9E981FA99ADB006A61B2 /* HKChatViewController+Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE9E971FA99ADB006A61B2 /* HKChatViewController+Sender.swift */; };
+		ACEE9E9A1FA9BCF8006A61B2 /* HKChatActionBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE9E991FA9BCF8006A61B2 /* HKChatActionBarView.swift */; };
+		ACEE9EA21FA9BD2C006A61B2 /* HKChatBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE9E9C1FA9BD2C006A61B2 /* HKChatBaseCell.swift */; };
+		ACEE9EA91FA9BD43006A61B2 /* HKChatActionBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEE9EA81FA9BD43006A61B2 /* HKChatActionBarView.xib */; };
+		ACEE9EAB1FA9C50D006A61B2 /* HKChatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE9EAA1FA9C50D006A61B2 /* HKChatButton.swift */; };
+		ACEE9EAD1FA9C527006A61B2 /* HKChatButton+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEE9EAC1FA9C527006A61B2 /* HKChatButton+UI.swift */; };
+		ACF1CF6E1F90A4CB00D63E83 /* HKContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1CF691F90A4CB00D63E83 /* HKContactViewController.swift */; };
+		ACF1CF6F1F90A4CB00D63E83 /* HKContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF1CF6A1F90A4CB00D63E83 /* HKContactViewController.xib */; };
+		ACF1CF721F90A4F600D63E83 /* HKContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1CF701F90A4F600D63E83 /* HKContactTableViewCell.swift */; };
+		ACF1CF731F90A4F600D63E83 /* HKContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF1CF711F90A4F600D63E83 /* HKContactTableViewCell.xib */; };
+		ACF1CF771F90AEBB00D63E83 /* HKContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1CF761F90AEBB00D63E83 /* HKContactModel.swift */; };
+		ACF1CF791F90BE8300D63E83 /* NSDictionary+HKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1CF781F90BE8300D63E83 /* NSDictionary+HKExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		731B61891EAE192B00E6C851 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		731B618B1EAE1A3A00E6C851 /* HKUIImage+WeChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKUIImage+WeChat.swift"; sourceTree = "<group>"; };
-		731B61941EAE1EB600E6C851 /* HKContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKContactViewController.swift; sourceTree = "<group>"; };
-		731B61951EAE1EB600E6C851 /* HKContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKContactViewController.xib; sourceTree = "<group>"; };
 		731B619F1EAF504A00E6C851 /* Tips.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tips.playground; sourceTree = "<group>"; };
-		731B61A81EB369EB00E6C851 /* HKDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKDiscoverViewController.swift; sourceTree = "<group>"; };
-		731B61A91EB369EB00E6C851 /* HKDiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKDiscoverViewController.xib; sourceTree = "<group>"; };
-		731B61AC1EB36A0400E6C851 /* HKMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKMeViewController.swift; sourceTree = "<group>"; };
-		731B61AD1EB36A0400E6C851 /* HKMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKMeViewController.xib; sourceTree = "<group>"; };
 		73F2E8B21EA9E10E00C01989 /* HelloKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F2E8B51EA9E10E00C01989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73F2E8CA1EA9F80900C01989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +95,22 @@
 		73F2E8D21EA9FB7C00C01989 /* HKTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKTabBar.swift; sourceTree = "<group>"; };
 		8BF5471A8FB98D97BF1775F1 /* Pods-HelloKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloKit/Pods-HelloKit.release.xcconfig"; sourceTree = "<group>"; };
 		AC3F0E5E1F7F6C3A0013712C /* UIImageView+HKKingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+HKKingfisher.swift"; sourceTree = "<group>"; };
+		AC5276C61FB3017700335182 /* HKChatImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatImageCell.swift; sourceTree = "<group>"; };
+		AC5276C71FB3017700335182 /* HKChatImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKChatImageCell.xib; sourceTree = "<group>"; };
+		AC5276C81FB3017700335182 /* HKChatSystemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatSystemCell.swift; sourceTree = "<group>"; };
+		AC5276C91FB3017700335182 /* HKChatSystemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKChatSystemCell.xib; sourceTree = "<group>"; };
+		AC5276CA1FB3017700335182 /* HKChatTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatTextCell.swift; sourceTree = "<group>"; };
+		AC5276CB1FB3017700335182 /* HKChatTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKChatTextCell.xib; sourceTree = "<group>"; };
+		AC5276CC1FB3017700335182 /* HKChatTimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatTimeCell.swift; sourceTree = "<group>"; };
+		AC5276CD1FB3017700335182 /* HKChatTimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKChatTimeCell.xib; sourceTree = "<group>"; };
+		AC5276CE1FB3017700335182 /* HKChatVoiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatVoiceCell.swift; sourceTree = "<group>"; };
+		AC5276CF1FB3017700335182 /* HKChatVoiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKChatVoiceCell.xib; sourceTree = "<group>"; };
+		AC5B16EC1F989365002A5C85 /* contact.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contact.json; sourceTree = "<group>"; };
+		AC5B16EF1F98A373002A5C85 /* HKDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKDiscoverViewController.swift; sourceTree = "<group>"; };
+		AC5B16F01F98A373002A5C85 /* HKDiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKDiscoverViewController.xib; sourceTree = "<group>"; };
+		AC5B16F51F98A389002A5C85 /* HKDiscoverModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKDiscoverModel.swift; sourceTree = "<group>"; };
+		AC5B16F71F98A3A7002A5C85 /* HKDiscoverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKDiscoverTableViewCell.swift; sourceTree = "<group>"; };
+		AC5B16F81F98A3A7002A5C85 /* HKDiscoverTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKDiscoverTableViewCell.xib; sourceTree = "<group>"; };
 		AC7AC2521F8CD0D5003EB12E /* HKTypealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKTypealias.swift; sourceTree = "<group>"; };
 		AC972A1F1F7DEB5F00BFB4E0 /* NSObject+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+String.swift"; sourceTree = "<group>"; };
 		AC972A201F7DEB5F00BFB4E0 /* UIColor+HelloKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HelloKit.swift"; sourceTree = "<group>"; };
@@ -91,9 +127,10 @@
 		ACB829981F8E064500BC8100 /* HKMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKMessageTableViewCell.xib; sourceTree = "<group>"; };
 		ACB829A01F8E104400BC8100 /* HKChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatViewController.swift; sourceTree = "<group>"; };
 		ACB829A11F8E104400BC8100 /* HKChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKChatViewController.xib; sourceTree = "<group>"; };
+		ACC3063A1FB05E10001474E3 /* HKChatViewController+DataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKChatViewController+DataHandler.swift"; sourceTree = "<group>"; };
+		ACC3063C1FB070CE001474E3 /* UITableView+ChatAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ChatAdditions.swift"; sourceTree = "<group>"; };
 		ACD91C9F1F905D8100933693 /* HKChatViewController+CellEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKChatViewController+CellEnums.swift"; sourceTree = "<group>"; };
 		ACD91CA11F908DD800933693 /* message.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = message.json; sourceTree = "<group>"; };
-		ACD9602A1F8F0BBD0025BFB6 /* HKChatBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatBaseCell.swift; sourceTree = "<group>"; };
 		ACD9602E1F8F0E290025BFB6 /* HKChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatModel.swift; sourceTree = "<group>"; };
 		ACD960301F8F10120025BFB6 /* HKChatAudioModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatAudioModel.swift; sourceTree = "<group>"; };
 		ACD960321F8F10510025BFB6 /* HKChatSubModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatSubModel.swift; sourceTree = "<group>"; };
@@ -104,11 +141,26 @@
 		ACD960421F8F4A590025BFB6 /* HKAppMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAppMacros.swift; sourceTree = "<group>"; };
 		ACD960441F8F4DAC0025BFB6 /* HKYYTextLinePositionModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKYYTextLinePositionModifier.swift; sourceTree = "<group>"; };
 		ACD960461F8F55F20025BFB6 /* HKChatCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatCellDelegate.swift; sourceTree = "<group>"; };
-		ACD960481F8F596B0025BFB6 /* HKChatImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatImageCell.swift; sourceTree = "<group>"; };
-		ACD9604A1F8F59890025BFB6 /* HKChatSystemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatSystemCell.swift; sourceTree = "<group>"; };
-		ACD9604C1F8F59980025BFB6 /* HKChatTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatTextCell.swift; sourceTree = "<group>"; };
-		ACD9604E1F8F59A60025BFB6 /* HKChatTimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatTimeCell.swift; sourceTree = "<group>"; };
-		ACD960501F8F59B10025BFB6 /* HKChatVoiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatVoiceCell.swift; sourceTree = "<group>"; };
+		ACDA6B721F99DB3200EB01A7 /* HKMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKMeViewController.swift; sourceTree = "<group>"; };
+		ACDA6B731F99DB3200EB01A7 /* HKMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKMeViewController.xib; sourceTree = "<group>"; };
+		ACDA6B7C1F99DB9000EB01A7 /* HKMyDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKMyDetailTableViewCell.swift; sourceTree = "<group>"; };
+		ACDA6B7D1F99DB9000EB01A7 /* HKMyDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKMyDetailTableViewCell.xib; sourceTree = "<group>"; };
+		ACEE9E8D1FA8831C006A61B2 /* HKChatViewController+Subviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKChatViewController+Subviews.swift"; sourceTree = "<group>"; };
+		ACEE9E8F1FA8853D006A61B2 /* HKChatViewController+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKChatViewController+Delegate.swift"; sourceTree = "<group>"; };
+		ACEE9E911FA99933006A61B2 /* HKChatViewController+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKChatViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		ACEE9E931FA9995E006A61B2 /* HKChatViewController+ActionBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKChatViewController+ActionBar.swift"; sourceTree = "<group>"; };
+		ACEE9E971FA99ADB006A61B2 /* HKChatViewController+Sender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKChatViewController+Sender.swift"; sourceTree = "<group>"; };
+		ACEE9E991FA9BCF8006A61B2 /* HKChatActionBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatActionBarView.swift; sourceTree = "<group>"; };
+		ACEE9E9C1FA9BD2C006A61B2 /* HKChatBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatBaseCell.swift; sourceTree = "<group>"; };
+		ACEE9EA81FA9BD43006A61B2 /* HKChatActionBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKChatActionBarView.xib; sourceTree = "<group>"; };
+		ACEE9EAA1FA9C50D006A61B2 /* HKChatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatButton.swift; sourceTree = "<group>"; };
+		ACEE9EAC1FA9C527006A61B2 /* HKChatButton+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKChatButton+UI.swift"; sourceTree = "<group>"; };
+		ACF1CF691F90A4CB00D63E83 /* HKContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKContactViewController.swift; sourceTree = "<group>"; };
+		ACF1CF6A1F90A4CB00D63E83 /* HKContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKContactViewController.xib; sourceTree = "<group>"; };
+		ACF1CF701F90A4F600D63E83 /* HKContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKContactTableViewCell.swift; sourceTree = "<group>"; };
+		ACF1CF711F90A4F600D63E83 /* HKContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKContactTableViewCell.xib; sourceTree = "<group>"; };
+		ACF1CF761F90AEBB00D63E83 /* HKContactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKContactModel.swift; sourceTree = "<group>"; };
+		ACF1CF781F90BE8300D63E83 /* NSDictionary+HKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+HKExtension.swift"; sourceTree = "<group>"; };
 		AFBFBEB527B6EB97DB3E29CB /* Pods_HelloKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC33EDF2CCC779840CB196B2 /* Pods-HelloKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloKit/Pods-HelloKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,8 +200,10 @@
 		731B618E1EAE1DF400E6C851 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				731B61941EAE1EB600E6C851 /* HKContactViewController.swift */,
-				731B61951EAE1EB600E6C851 /* HKContactViewController.xib */,
+				ACF1CF681F90A4CB00D63E83 /* Controller */,
+				ACF1CF6B1F90A4CB00D63E83 /* Handler */,
+				ACF1CF6C1F90A4CB00D63E83 /* Models */,
+				ACF1CF6D1F90A4CB00D63E83 /* Views */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -157,8 +211,9 @@
 		731B618F1EAE1DF400E6C851 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				731B61A81EB369EB00E6C851 /* HKDiscoverViewController.swift */,
-				731B61A91EB369EB00E6C851 /* HKDiscoverViewController.xib */,
+				AC5B16EE1F98A373002A5C85 /* Controller */,
+				AC5B16F11F98A373002A5C85 /* Model */,
+				AC5B16F21F98A373002A5C85 /* View */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -166,8 +221,9 @@
 		731B61A71EB369AE00E6C851 /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				731B61AC1EB36A0400E6C851 /* HKMeViewController.swift */,
-				731B61AD1EB36A0400E6C851 /* HKMeViewController.xib */,
+				ACDA6B711F99DB3200EB01A7 /* Controller */,
+				ACDA6B741F99DB3200EB01A7 /* Models */,
+				ACDA6B751F99DB3200EB01A7 /* Views */,
 			);
 			name = Me;
 			path = HelloKit/Classes/Me;
@@ -178,6 +234,12 @@
 			children = (
 				ACD91C9E1F905D5900933693 /* Helper */,
 				ACB829A01F8E104400BC8100 /* HKChatViewController.swift */,
+				ACC3063A1FB05E10001474E3 /* HKChatViewController+DataHandler.swift */,
+				ACEE9E911FA99933006A61B2 /* HKChatViewController+Keyboard.swift */,
+				ACEE9E931FA9995E006A61B2 /* HKChatViewController+ActionBar.swift */,
+				ACEE9E971FA99ADB006A61B2 /* HKChatViewController+Sender.swift */,
+				ACEE9E8D1FA8831C006A61B2 /* HKChatViewController+Subviews.swift */,
+				ACEE9E8F1FA8853D006A61B2 /* HKChatViewController+Delegate.swift */,
 				ACB829A11F8E104400BC8100 /* HKChatViewController.xib */,
 			);
 			path = Controllers;
@@ -197,12 +259,11 @@
 		731B61B91EB495F600E6C851 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				ACD9602A1F8F0BBD0025BFB6 /* HKChatBaseCell.swift */,
-				ACD960481F8F596B0025BFB6 /* HKChatImageCell.swift */,
-				ACD9604A1F8F59890025BFB6 /* HKChatSystemCell.swift */,
-				ACD9604C1F8F59980025BFB6 /* HKChatTextCell.swift */,
-				ACD9604E1F8F59A60025BFB6 /* HKChatTimeCell.swift */,
-				ACD960501F8F59B10025BFB6 /* HKChatVoiceCell.swift */,
+				ACEE9E9B1FA9BD2C006A61B2 /* Cells */,
+				ACEE9E991FA9BCF8006A61B2 /* HKChatActionBarView.swift */,
+				ACEE9EA81FA9BD43006A61B2 /* HKChatActionBarView.xib */,
+				ACEE9EAA1FA9C50D006A61B2 /* HKChatButton.swift */,
+				ACEE9EAC1FA9C527006A61B2 /* HKChatButton+UI.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -259,6 +320,7 @@
 				731B618B1EAE1A3A00E6C851 /* HKUIImage+WeChat.swift */,
 				731B61891EAE192B00E6C851 /* Media.xcassets */,
 				ACD91CA11F908DD800933693 /* message.json */,
+				AC5B16EC1F989365002A5C85 /* contact.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -279,6 +341,32 @@
 				73F2E8D21EA9FB7C00C01989 /* HKTabBar.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		AC5B16EE1F98A373002A5C85 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC5B16EF1F98A373002A5C85 /* HKDiscoverViewController.swift */,
+				AC5B16F01F98A373002A5C85 /* HKDiscoverViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC5B16F11F98A373002A5C85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC5B16F51F98A389002A5C85 /* HKDiscoverModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC5B16F21F98A373002A5C85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC5B16F71F98A3A7002A5C85 /* HKDiscoverTableViewCell.swift */,
+				AC5B16F81F98A3A7002A5C85 /* HKDiscoverTableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		AC7AC2511F8CD0BB003EB12E /* Typealias */ = {
@@ -319,6 +407,7 @@
 				AC972A221F7DEB5F00BFB4E0 /* UIViewController+Extension.swift */,
 				AC972A7F1F7E422700DEDEE7 /* NSDate+Extension.swift */,
 				AC3F0E5E1F7F6C3A0013712C /* UIImageView+HKKingfisher.swift */,
+				ACF1CF781F90BE8300D63E83 /* NSDictionary+HKExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -386,6 +475,7 @@
 			isa = PBXGroup;
 			children = (
 				ACD91C9F1F905D8100933693 /* HKChatViewController+CellEnums.swift */,
+				ACC3063C1FB070CE001474E3 /* UITableView+ChatAdditions.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -415,6 +505,82 @@
 				ACD960421F8F4A590025BFB6 /* HKAppMacros.swift */,
 			);
 			path = Macro;
+			sourceTree = "<group>";
+		};
+		ACDA6B711F99DB3200EB01A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACDA6B721F99DB3200EB01A7 /* HKMeViewController.swift */,
+				ACDA6B731F99DB3200EB01A7 /* HKMeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ACDA6B741F99DB3200EB01A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ACDA6B751F99DB3200EB01A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACDA6B7C1F99DB9000EB01A7 /* HKMyDetailTableViewCell.swift */,
+				ACDA6B7D1F99DB9000EB01A7 /* HKMyDetailTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ACEE9E9B1FA9BD2C006A61B2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ACEE9E9C1FA9BD2C006A61B2 /* HKChatBaseCell.swift */,
+				AC5276C61FB3017700335182 /* HKChatImageCell.swift */,
+				AC5276C71FB3017700335182 /* HKChatImageCell.xib */,
+				AC5276C81FB3017700335182 /* HKChatSystemCell.swift */,
+				AC5276C91FB3017700335182 /* HKChatSystemCell.xib */,
+				AC5276CA1FB3017700335182 /* HKChatTextCell.swift */,
+				AC5276CB1FB3017700335182 /* HKChatTextCell.xib */,
+				AC5276CC1FB3017700335182 /* HKChatTimeCell.swift */,
+				AC5276CD1FB3017700335182 /* HKChatTimeCell.xib */,
+				AC5276CE1FB3017700335182 /* HKChatVoiceCell.swift */,
+				AC5276CF1FB3017700335182 /* HKChatVoiceCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		ACF1CF681F90A4CB00D63E83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACF1CF691F90A4CB00D63E83 /* HKContactViewController.swift */,
+				ACF1CF6A1F90A4CB00D63E83 /* HKContactViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ACF1CF6B1F90A4CB00D63E83 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		ACF1CF6C1F90A4CB00D63E83 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACF1CF761F90AEBB00D63E83 /* HKContactModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ACF1CF6D1F90A4CB00D63E83 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACF1CF701F90A4F600D63E83 /* HKContactTableViewCell.swift */,
+				ACF1CF711F90A4F600D63E83 /* HKContactTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		EEC74519E353C563C19F1236 /* Frameworks */ = {
@@ -488,16 +654,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5276D31FB3017700335182 /* HKChatSystemCell.xib in Resources */,
+				AC5B16ED1F989365002A5C85 /* contact.json in Resources */,
 				73F2E8CC1EA9F80900C01989 /* Assets.xcassets in Resources */,
-				731B61AF1EB36A0400E6C851 /* HKMeViewController.xib in Resources */,
+				AC5B16FA1F98A3A7002A5C85 /* HKDiscoverTableViewCell.xib in Resources */,
 				731B618A1EAE192B00E6C851 /* Media.xcassets in Resources */,
+				ACF1CF731F90A4F600D63E83 /* HKContactTableViewCell.xib in Resources */,
+				ACDA6B7F1F99DB9000EB01A7 /* HKMyDetailTableViewCell.xib in Resources */,
 				ACB8299D1F8E064500BC8100 /* HKMessageTableViewCell.xib in Resources */,
-				731B61AB1EB369EB00E6C851 /* HKDiscoverViewController.xib in Resources */,
-				731B61971EAE1EB600E6C851 /* HKContactViewController.xib in Resources */,
+				AC5B16F41F98A373002A5C85 /* HKDiscoverViewController.xib in Resources */,
+				AC5276D71FB3017700335182 /* HKChatTimeCell.xib in Resources */,
 				ACB829A31F8E104400BC8100 /* HKChatViewController.xib in Resources */,
 				73F2E8CF1EA9F86B00C01989 /* Default-568h@2x.png in Resources */,
+				AC5276D11FB3017700335182 /* HKChatImageCell.xib in Resources */,
 				ACB8299A1F8E064500BC8100 /* HKMessageViewController.xib in Resources */,
+				ACF1CF6F1F90A4CB00D63E83 /* HKContactViewController.xib in Resources */,
+				ACEE9EA91FA9BD43006A61B2 /* HKChatActionBarView.xib in Resources */,
+				AC5276D51FB3017700335182 /* HKChatTextCell.xib in Resources */,
+				AC5276D91FB3017700335182 /* HKChatVoiceCell.xib in Resources */,
 				ACD91CA21F908DD800933693 /* message.json in Resources */,
+				ACDA6B771F99DB3200EB01A7 /* HKMeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,41 +780,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				731B61AA1EB369EB00E6C851 /* HKDiscoverViewController.swift in Sources */,
 				AC972A271F7DEB5F00BFB4E0 /* UIViewController+Extension.swift in Sources */,
 				73F2E8D31EA9FB7C00C01989 /* HKTabBar.swift in Sources */,
 				ACB829991F8E064500BC8100 /* HKMessageViewController.swift in Sources */,
-				ACD9604B1F8F59890025BFB6 /* HKChatSystemCell.swift in Sources */,
+				ACEE9E8E1FA8831C006A61B2 /* HKChatViewController+Subviews.swift in Sources */,
+				ACEE9E981FA99ADB006A61B2 /* HKChatViewController+Sender.swift in Sources */,
+				AC5276D61FB3017700335182 /* HKChatTimeCell.swift in Sources */,
+				ACEE9EAB1FA9C50D006A61B2 /* HKChatButton.swift in Sources */,
+				AC5276D81FB3017700335182 /* HKChatVoiceCell.swift in Sources */,
 				ACD960471F8F55F20025BFB6 /* HKChatCellDelegate.swift in Sources */,
-				ACD9602C1F8F0BBD0025BFB6 /* HKChatBaseCell.swift in Sources */,
-				ACD960491F8F596B0025BFB6 /* HKChatImageCell.swift in Sources */,
-				ACD9604F1F8F59A60025BFB6 /* HKChatTimeCell.swift in Sources */,
+				ACEE9E901FA8853D006A61B2 /* HKChatViewController+Delegate.swift in Sources */,
 				AC972A7E1F7E36A900DEDEE7 /* HKTransformer.swift in Sources */,
 				ACD960381F8F375F0025BFB6 /* HKImageFilesManager.swift in Sources */,
 				AC972A251F7DEB5F00BFB4E0 /* UIColor+HelloKit.swift in Sources */,
 				AC3F0E5F1F7F6C3A0013712C /* UIImageView+HKKingfisher.swift in Sources */,
+				ACF1CF721F90A4F600D63E83 /* HKContactTableViewCell.swift in Sources */,
 				AC972A241F7DEB5F00BFB4E0 /* NSObject+String.swift in Sources */,
+				AC5B16F61F98A389002A5C85 /* HKDiscoverModel.swift in Sources */,
 				ACB8299C1F8E064500BC8100 /* HKMessageTableViewCell.swift in Sources */,
 				ACD960451F8F4DAC0025BFB6 /* HKYYTextLinePositionModifier.swift in Sources */,
 				ACD9603F1F8F4A230025BFB6 /* HKUserManager.swift in Sources */,
+				ACEE9E941FA9995E006A61B2 /* HKChatViewController+ActionBar.swift in Sources */,
 				AC972A801F7E422700DEDEE7 /* NSDate+Extension.swift in Sources */,
+				AC5B16F31F98A373002A5C85 /* HKDiscoverViewController.swift in Sources */,
 				ACD960431F8F4A590025BFB6 /* HKAppMacros.swift in Sources */,
+				AC5B16F91F98A3A7002A5C85 /* HKDiscoverTableViewCell.swift in Sources */,
+				ACC3063D1FB070CE001474E3 /* UITableView+ChatAdditions.swift in Sources */,
+				ACEE9E9A1FA9BCF8006A61B2 /* HKChatActionBarView.swift in Sources */,
 				731B618C1EAE1A3A00E6C851 /* HKUIImage+WeChat.swift in Sources */,
+				AC5276D01FB3017700335182 /* HKChatImageCell.swift in Sources */,
 				ACD960411F8F4A4D0025BFB6 /* HKConfig.swift in Sources */,
 				ACD91CA01F905D8100933693 /* HKChatViewController+CellEnums.swift in Sources */,
 				ACB8299B1F8E064500BC8100 /* HKMessageModel.swift in Sources */,
 				ACD960331F8F10510025BFB6 /* HKChatSubModel.swift in Sources */,
+				ACC3063B1FB05E10001474E3 /* HKChatViewController+DataHandler.swift in Sources */,
 				ACA7112B1F8DB61900B95C35 /* HKLogger.swift in Sources */,
 				ACD9602F1F8F0E290025BFB6 /* HKChatModel.swift in Sources */,
-				731B61AE1EB36A0400E6C851 /* HKMeViewController.swift in Sources */,
+				ACF1CF6E1F90A4CB00D63E83 /* HKContactViewController.swift in Sources */,
+				ACEE9E921FA99933006A61B2 /* HKChatViewController+Keyboard.swift in Sources */,
 				AC972A261F7DEB5F00BFB4E0 /* UIView+Frame.swift in Sources */,
-				731B61961EAE1EB600E6C851 /* HKContactViewController.swift in Sources */,
+				ACF1CF771F90AEBB00D63E83 /* HKContactModel.swift in Sources */,
 				73F2E8B61EA9E10E00C01989 /* AppDelegate.swift in Sources */,
 				ACD960351F8F34E80025BFB6 /* HKChatImageModel.swift in Sources */,
-				ACD9604D1F8F59980025BFB6 /* HKChatTextCell.swift in Sources */,
 				ACD960311F8F10120025BFB6 /* HKChatAudioModel.swift in Sources */,
+				ACEE9EAD1FA9C527006A61B2 /* HKChatButton+UI.swift in Sources */,
+				ACEE9EA21FA9BD2C006A61B2 /* HKChatBaseCell.swift in Sources */,
+				ACF1CF791F90BE8300D63E83 /* NSDictionary+HKExtension.swift in Sources */,
+				ACDA6B761F99DB3200EB01A7 /* HKMeViewController.swift in Sources */,
+				AC5276D21FB3017700335182 /* HKChatSystemCell.swift in Sources */,
+				AC5276D41FB3017700335182 /* HKChatTextCell.swift in Sources */,
+				ACDA6B7E1F99DB9000EB01A7 /* HKMyDetailTableViewCell.swift in Sources */,
 				AC972A2A1F7DEBC800BFB4E0 /* HKMessageEnum.swift in Sources */,
-				ACD960511F8F59B10025BFB6 /* HKChatVoiceCell.swift in Sources */,
 				AC7AC2531F8CD0D5003EB12E /* HKTypealias.swift in Sources */,
 				ACB829A21F8E104400BC8100 /* HKChatViewController.swift in Sources */,
 			);

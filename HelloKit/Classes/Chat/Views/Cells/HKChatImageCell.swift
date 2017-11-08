@@ -2,13 +2,12 @@
 //  HKChatImageCell.swift
 //  HelloKit
 //
-//  Created by SuperMario@lvhan on 2017/10/12.
+//  Created by SuperMario@lvhan on 2017/11/8.
 //  Copyright © 2017年 Weelh. All rights reserved.
 //
 
 import UIKit
 import Foundation
-
 
 let kChatImageMaxWidth: CGFloat = 125 //最大的图片宽度
 let kChatImageMinWidth: CGFloat = 50 //最小的图片宽度
@@ -16,7 +15,7 @@ let kChatImageMaxHeight: CGFloat = 150 //最大的图片高度
 let kChatImageMinHeight: CGFloat = 50 //最小的图片高度
 
 class HKChatImageCell: HKChatBaseCell {
-
+    
     @IBOutlet weak var chatImageView: UIImageView!
     @IBOutlet weak var coverImageView: UIImageView!
     

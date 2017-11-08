@@ -47,16 +47,43 @@
         @objc optional func protocolMethod(_ para: String)
     }
  
+ 10. if let我们称之为'解包(unwrapping)', 从swift 1.2开始,它后面和可以跟多个条件判断.
+ 
+ 11. convenience: 便利构造方法,初始化方法中的"二等公民".必须调用同一个类中的designated初始化方法(特定初始化方法)
+     designated: 特定的初始化方法,如果没有指定,即 init 初始化方法
+     required: 必须实现方法. 对于希望子类中一定实现的designated初始化方法,可以使用required关键字.当然,convenience方法也可以使用这个关键字.
+     参考: http://swifter.tips/init-keywords/
+ 
+ 12. 协议后面跟class关键字表明这个协议只能用在类上.
+ 
+ 13. 防止循环引用, 使用weak 和 unowned 
+     参考: http://swifter.tips/retain-cycle/
+     从Swift 3 开始,闭包默认都是非逃逸的,如果要标明一个逃逸闭包,需要使用@escaping
+     所谓逃逸闭包,就是指闭包是在函数执行完毕之后,才被调用.这个时候,函数执行完毕,很有可能函数,函数中的变量,甚至整个类self,已经被释
+     放,这时候闭包中再使用这些变量,或者调用self,就可能发生崩溃. 所以要使用weak和unowned.
+     这里写了markdown文件./Users/mario/Desktop/Markdown/Swift中的weak 和 unowned
+ 
+14.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  */
-
-
-
-
-
-
-
 
 
 //: [Next](@next)

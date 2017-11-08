@@ -10,7 +10,7 @@ import UIKit
 import YYText
 import ObjectMapper
 
-class HKChatModel: NSObject {
+class HKChatModel: NSObject, HKModelProtocol {
     
     var audioModel: HKChatAudioModel?
     var imageModel: HKChatImageModel?

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HKChatActionBarView" customModule="HelloKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="505" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y46-nN-IsE" customClass="HKChatButton" customModule="HelloKit" customModuleProvider="target">
+                    <rect key="frame" x="5" y="8" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="0AI-tY-yut"/>
+                        <constraint firstAttribute="height" constant="35" id="iad-fl-iDr"/>
+                    </constraints>
+                    <state key="normal" image="tool_voice_1"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIg-4M-Eg1" customClass="HKChatButton" customModule="HelloKit" customModuleProvider="target">
+                    <rect key="frame" x="465" y="8" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="bHN-h7-w3Y"/>
+                        <constraint firstAttribute="height" constant="35" id="fAv-TR-BhN"/>
+                    </constraints>
+                    <state key="normal" image="tool_share_1"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bl0-8j-mLI" customClass="HKChatButton" customModule="HelloKit" customModuleProvider="target">
+                    <rect key="frame" x="423" y="8" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="0MP-Pw-kT7"/>
+                        <constraint firstAttribute="width" constant="35" id="scb-ty-seJ"/>
+                    </constraints>
+                    <state key="normal" image="tool_emotion_1"/>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="idO-44-spO">
+                    <rect key="frame" x="50" y="5" width="363" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPg-hv-IeM">
+                    <rect key="frame" x="50" y="5" width="363" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="按住说话">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="eIg-4M-Eg1" secondAttribute="bottom" constant="7" id="5Eg-st-t1J"/>
+                <constraint firstItem="tPg-hv-IeM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="6p2-VL-kro"/>
+                <constraint firstAttribute="bottom" secondItem="idO-44-spO" secondAttribute="bottom" constant="5" id="Fdf-nB-gVw"/>
+                <constraint firstItem="tPg-hv-IeM" firstAttribute="leading" secondItem="y46-nN-IsE" secondAttribute="trailing" constant="10" id="MhT-fz-QhC"/>
+                <constraint firstItem="bl0-8j-mLI" firstAttribute="leading" secondItem="tPg-hv-IeM" secondAttribute="trailing" constant="10" id="UgF-0W-je9"/>
+                <constraint firstItem="eIg-4M-Eg1" firstAttribute="leading" secondItem="bl0-8j-mLI" secondAttribute="trailing" constant="7" id="aSG-aP-9Ar"/>
+                <constraint firstItem="y46-nN-IsE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="cWA-7d-SyT"/>
+                <constraint firstItem="idO-44-spO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="dcV-Rz-iJd"/>
+                <constraint firstItem="bl0-8j-mLI" firstAttribute="leading" secondItem="idO-44-spO" secondAttribute="trailing" constant="10" id="epM-I1-uzX"/>
+                <constraint firstAttribute="bottom" secondItem="bl0-8j-mLI" secondAttribute="bottom" constant="7" id="hyw-Rl-Xe2"/>
+                <constraint firstAttribute="bottom" secondItem="y46-nN-IsE" secondAttribute="bottom" constant="7" id="kFH-24-zmB"/>
+                <constraint firstItem="idO-44-spO" firstAttribute="leading" secondItem="y46-nN-IsE" secondAttribute="trailing" constant="10" id="n5W-xg-U21"/>
+                <constraint firstAttribute="trailing" secondItem="eIg-4M-Eg1" secondAttribute="trailing" constant="5" id="pHy-5B-Y6d"/>
+                <constraint firstAttribute="bottom" secondItem="tPg-hv-IeM" secondAttribute="bottom" constant="5" id="zux-EA-pWj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="emotionButton" destination="bl0-8j-mLI" id="qUi-5t-T81"/>
+                <outlet property="inputTextView" destination="idO-44-spO" id="2va-gf-Ood"/>
+                <outlet property="recordButton" destination="tPg-hv-IeM" id="z7t-64-fsj"/>
+                <outlet property="shareButton" destination="eIg-4M-Eg1" id="FQ8-5D-lCe"/>
+                <outlet property="voiceButton" destination="y46-nN-IsE" id="7nv-qK-Tra"/>
+            </connections>
+            <point key="canvasLocation" x="-187" y="-109"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tool_emotion_1" width="35" height="35"/>
+        <image name="tool_share_1" width="35" height="35"/>
+        <image name="tool_voice_1" width="35" height="35"/>
+    </resources>
+</document>

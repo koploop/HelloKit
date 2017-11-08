@@ -19,7 +19,9 @@ class HKChatViewController: UIViewController {
     @IBOutlet var refreshView: UIView!
     @IBOutlet weak var indicatorView: UIActivityIndicatorView!
     
+    // 懒加载(闭包)
     lazy var listTableView: UITableView = {
+        
         let listTableView = UITableView(frame: CGRect.zero, style: .plain)
         listTableView.dataSource = self
         listTableView.delegate = self
@@ -30,7 +32,7 @@ class HKChatViewController: UIViewController {
     }()
     
     var messageModel: HKMessageModel?
-    var chatActionBarView: UIView!
+    var chatActionBarView: HKChatActionBarView!
     var actionBarPaddingBottomConstranit: Constraint?
     var keyboardHeightConstraint: NSLayoutConstraint?
     var emotionInputView: UIView!
@@ -49,18 +51,27 @@ class HKChatViewController: UIViewController {
         self.view.backgroundColor = UIColor.viewBackgroundColor
         self.navigationController!.interactivePopGestureRecognizer!.isEnabled = true
         
-        // cell init
+        // listTableview
         self.listTableView.ts_registerCellNib(HKChatTextCell.self)
         self.listTableView.ts_registerCellNib(HKChatImageCell.self)
         self.listTableView.ts_registerCellNib(HKChatVoiceCell.self)
         self.listTableView.ts_registerCellNib(HKChatSystemCell.self)
         self.listTableView.ts_registerCellNib(HKChatTimeCell.self)
-        
-        // listTableview init
         self.listTableView.tableFooterView = UIView()
         self.listTableView.tableHeaderView = self.refreshView
         
+        // 设置子视图
+        self.setupSubviews(self)
+        //设置键盘
+        self.keyboardControl()
+        //Action Bar
+        self.setupActionBarButtonInterAction()
+        //设置录音delegate
         
+        //设置播放delegate
+        
+        //获取数据
+        self.firstFetchMessageList()
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -103,6 +114,14 @@ extension HKChatViewController: UITableViewDataSource {
         }
         let type: MessageContentType = chatModel.messageContentType
         return type.chatCell(tableView, indexPath: indexPath, model: chatModel, viewController: self)!
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        guard let chatModel = self.itemDataSource.get(index: indexPath.row) else {
+            return 0
+        }
+        let type: MessageContentType = chatModel.messageContentType
+        return type.chatCellHeight(chatModel)
     }
 }
 
