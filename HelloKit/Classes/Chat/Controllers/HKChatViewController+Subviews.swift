@@ -47,6 +47,7 @@ extension HKChatViewController {
         self.listTableView.addGestureRecognizer(tap)
         tap.rx.event.subscribe {[weak self] _ in
             guard let strongSelf = self else { return }
+//            strongSelf.hideAllKeyboard()
             
         }.addDisposableTo(self.disposeBag)
         
