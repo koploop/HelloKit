@@ -54,7 +54,8 @@
      required: 必须实现方法. 对于希望子类中一定实现的designated初始化方法,可以使用required关键字.当然,convenience方法也可以使用这个关键字.
      参考: http://swifter.tips/init-keywords/
  
- 12. 协议后面跟class关键字表明这个协议只能用在类上.
+ 12. 协议后面跟class关键字表明这个协议只能用在类上. 为什么要特别注明这个协议只能由class来实现呢? 因为Swift 的 protocol 也是可以被除了 class 以外的其他类型遵守的，像 struct 或是 enum 这样的类型. 而我们在声明一个delegate的时候,为了避免循环引用,要把它声明为weak,但是struct和enum这样的类型是不通过引用计数来管理内存的,所以当不加class的时候,使用weak protocol的时候会编译报错. 还有另外一种方法,在protocol前加上@bojc. 
+     参考: http://swifter.tips/delegate/
  
  13. 防止循环引用, 使用weak 和 unowned 
      参考: http://swifter.tips/retain-cycle/
@@ -63,7 +64,8 @@
      放,这时候闭包中再使用这些变量,或者调用self,就可能发生崩溃. 所以要使用weak和unowned.
      这里写了markdown文件./Users/mario/Desktop/Markdown/Swift中的weak 和 unowned
  
-14.
+14.  Swift的闭包可以省略很多东西
+     /Users/mario/Desktop/Markdown/Swift闭包的简写.
  
  
  

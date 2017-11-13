@@ -49,6 +49,7 @@
 		ACB829A31F8E104400BC8100 /* HKChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACB829A11F8E104400BC8100 /* HKChatViewController.xib */; };
 		ACC3063B1FB05E10001474E3 /* HKChatViewController+DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3063A1FB05E10001474E3 /* HKChatViewController+DataHandler.swift */; };
 		ACC3063D1FB070CE001474E3 /* UITableView+ChatAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC3063C1FB070CE001474E3 /* UITableView+ChatAdditions.swift */; };
+		ACC4DC4D1FB446F900EB887F /* HKChatTextCell+Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC4DC4C1FB446F900EB887F /* HKChatTextCell+Constant.swift */; };
 		ACD91CA01F905D8100933693 /* HKChatViewController+CellEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD91C9F1F905D8100933693 /* HKChatViewController+CellEnums.swift */; };
 		ACD91CA21F908DD800933693 /* message.json in Resources */ = {isa = PBXBuildFile; fileRef = ACD91CA11F908DD800933693 /* message.json */; };
 		ACD9602F1F8F0E290025BFB6 /* HKChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9602E1F8F0E290025BFB6 /* HKChatModel.swift */; };
@@ -59,7 +60,6 @@
 		ACD9603F1F8F4A230025BFB6 /* HKUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD9603D1F8F4A230025BFB6 /* HKUserManager.swift */; };
 		ACD960411F8F4A4D0025BFB6 /* HKConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD960401F8F4A4D0025BFB6 /* HKConfig.swift */; };
 		ACD960431F8F4A590025BFB6 /* HKAppMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD960421F8F4A590025BFB6 /* HKAppMacros.swift */; };
-		ACD960451F8F4DAC0025BFB6 /* HKYYTextLinePositionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD960441F8F4DAC0025BFB6 /* HKYYTextLinePositionModifier.swift */; };
 		ACD960471F8F55F20025BFB6 /* HKChatCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD960461F8F55F20025BFB6 /* HKChatCellDelegate.swift */; };
 		ACDA6B761F99DB3200EB01A7 /* HKMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDA6B721F99DB3200EB01A7 /* HKMeViewController.swift */; };
 		ACDA6B771F99DB3200EB01A7 /* HKMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACDA6B731F99DB3200EB01A7 /* HKMeViewController.xib */; };
@@ -81,6 +81,9 @@
 		ACF1CF731F90A4F600D63E83 /* HKContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF1CF711F90A4F600D63E83 /* HKContactTableViewCell.xib */; };
 		ACF1CF771F90AEBB00D63E83 /* HKContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1CF761F90AEBB00D63E83 /* HKContactModel.swift */; };
 		ACF1CF791F90BE8300D63E83 /* NSDictionary+HKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1CF781F90BE8300D63E83 /* NSDictionary+HKExtension.swift */; };
+		ACF81A481FB573CE0094D6B2 /* HKChatTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF81A471FB573CE0094D6B2 /* HKChatTextParser.swift */; };
+		ACF81A4C1FB5A4A10094D6B2 /* HKChatEmojiDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF81A4B1FB5A4A10094D6B2 /* HKChatEmojiDictionary.swift */; };
+		ACFCA8DB1FB938480046ED14 /* HKYYTextLinePositionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFCA8DA1FB938480046ED14 /* HKYYTextLinePositionModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +132,7 @@
 		ACB829A11F8E104400BC8100 /* HKChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKChatViewController.xib; sourceTree = "<group>"; };
 		ACC3063A1FB05E10001474E3 /* HKChatViewController+DataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKChatViewController+DataHandler.swift"; sourceTree = "<group>"; };
 		ACC3063C1FB070CE001474E3 /* UITableView+ChatAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ChatAdditions.swift"; sourceTree = "<group>"; };
+		ACC4DC4C1FB446F900EB887F /* HKChatTextCell+Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKChatTextCell+Constant.swift"; sourceTree = "<group>"; };
 		ACD91C9F1F905D8100933693 /* HKChatViewController+CellEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HKChatViewController+CellEnums.swift"; sourceTree = "<group>"; };
 		ACD91CA11F908DD800933693 /* message.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = message.json; sourceTree = "<group>"; };
 		ACD9602E1F8F0E290025BFB6 /* HKChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatModel.swift; sourceTree = "<group>"; };
@@ -139,7 +143,6 @@
 		ACD9603D1F8F4A230025BFB6 /* HKUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKUserManager.swift; sourceTree = "<group>"; };
 		ACD960401F8F4A4D0025BFB6 /* HKConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKConfig.swift; sourceTree = "<group>"; };
 		ACD960421F8F4A590025BFB6 /* HKAppMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAppMacros.swift; sourceTree = "<group>"; };
-		ACD960441F8F4DAC0025BFB6 /* HKYYTextLinePositionModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKYYTextLinePositionModifier.swift; sourceTree = "<group>"; };
 		ACD960461F8F55F20025BFB6 /* HKChatCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatCellDelegate.swift; sourceTree = "<group>"; };
 		ACDA6B721F99DB3200EB01A7 /* HKMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKMeViewController.swift; sourceTree = "<group>"; };
 		ACDA6B731F99DB3200EB01A7 /* HKMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKMeViewController.xib; sourceTree = "<group>"; };
@@ -161,6 +164,9 @@
 		ACF1CF711F90A4F600D63E83 /* HKContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HKContactTableViewCell.xib; sourceTree = "<group>"; };
 		ACF1CF761F90AEBB00D63E83 /* HKContactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKContactModel.swift; sourceTree = "<group>"; };
 		ACF1CF781F90BE8300D63E83 /* NSDictionary+HKExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+HKExtension.swift"; sourceTree = "<group>"; };
+		ACF81A471FB573CE0094D6B2 /* HKChatTextParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatTextParser.swift; sourceTree = "<group>"; };
+		ACF81A4B1FB5A4A10094D6B2 /* HKChatEmojiDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKChatEmojiDictionary.swift; sourceTree = "<group>"; };
+		ACFCA8DA1FB938480046ED14 /* HKYYTextLinePositionModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKYYTextLinePositionModifier.swift; sourceTree = "<group>"; };
 		AFBFBEB527B6EB97DB3E29CB /* Pods_HelloKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC33EDF2CCC779840CB196B2 /* Pods-HelloKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloKit/Pods-HelloKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -485,6 +491,9 @@
 			children = (
 				ACD960371F8F375F0025BFB6 /* HKImageFilesManager.swift */,
 				ACD960461F8F55F20025BFB6 /* HKChatCellDelegate.swift */,
+				ACF81A471FB573CE0094D6B2 /* HKChatTextParser.swift */,
+				ACF81A4B1FB5A4A10094D6B2 /* HKChatEmojiDictionary.swift */,
+				ACFCA8DA1FB938480046ED14 /* HKYYTextLinePositionModifier.swift */,
 			);
 			path = Handler;
 			sourceTree = "<group>";
@@ -493,7 +502,6 @@
 			isa = PBXGroup;
 			children = (
 				ACD9603D1F8F4A230025BFB6 /* HKUserManager.swift */,
-				ACD960441F8F4DAC0025BFB6 /* HKYYTextLinePositionModifier.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -541,6 +549,7 @@
 				AC5276C81FB3017700335182 /* HKChatSystemCell.swift */,
 				AC5276C91FB3017700335182 /* HKChatSystemCell.xib */,
 				AC5276CA1FB3017700335182 /* HKChatTextCell.swift */,
+				ACC4DC4C1FB446F900EB887F /* HKChatTextCell+Constant.swift */,
 				AC5276CB1FB3017700335182 /* HKChatTextCell.xib */,
 				AC5276CC1FB3017700335182 /* HKChatTimeCell.swift */,
 				AC5276CD1FB3017700335182 /* HKChatTimeCell.xib */,
@@ -785,6 +794,7 @@
 				ACB829991F8E064500BC8100 /* HKMessageViewController.swift in Sources */,
 				ACEE9E8E1FA8831C006A61B2 /* HKChatViewController+Subviews.swift in Sources */,
 				ACEE9E981FA99ADB006A61B2 /* HKChatViewController+Sender.swift in Sources */,
+				ACF81A4C1FB5A4A10094D6B2 /* HKChatEmojiDictionary.swift in Sources */,
 				AC5276D61FB3017700335182 /* HKChatTimeCell.swift in Sources */,
 				ACEE9EAB1FA9C50D006A61B2 /* HKChatButton.swift in Sources */,
 				AC5276D81FB3017700335182 /* HKChatVoiceCell.swift in Sources */,
@@ -798,19 +808,21 @@
 				AC972A241F7DEB5F00BFB4E0 /* NSObject+String.swift in Sources */,
 				AC5B16F61F98A389002A5C85 /* HKDiscoverModel.swift in Sources */,
 				ACB8299C1F8E064500BC8100 /* HKMessageTableViewCell.swift in Sources */,
-				ACD960451F8F4DAC0025BFB6 /* HKYYTextLinePositionModifier.swift in Sources */,
 				ACD9603F1F8F4A230025BFB6 /* HKUserManager.swift in Sources */,
 				ACEE9E941FA9995E006A61B2 /* HKChatViewController+ActionBar.swift in Sources */,
+				ACF81A481FB573CE0094D6B2 /* HKChatTextParser.swift in Sources */,
 				AC972A801F7E422700DEDEE7 /* NSDate+Extension.swift in Sources */,
 				AC5B16F31F98A373002A5C85 /* HKDiscoverViewController.swift in Sources */,
 				ACD960431F8F4A590025BFB6 /* HKAppMacros.swift in Sources */,
 				AC5B16F91F98A3A7002A5C85 /* HKDiscoverTableViewCell.swift in Sources */,
 				ACC3063D1FB070CE001474E3 /* UITableView+ChatAdditions.swift in Sources */,
+				ACFCA8DB1FB938480046ED14 /* HKYYTextLinePositionModifier.swift in Sources */,
 				ACEE9E9A1FA9BCF8006A61B2 /* HKChatActionBarView.swift in Sources */,
 				731B618C1EAE1A3A00E6C851 /* HKUIImage+WeChat.swift in Sources */,
 				AC5276D01FB3017700335182 /* HKChatImageCell.swift in Sources */,
 				ACD960411F8F4A4D0025BFB6 /* HKConfig.swift in Sources */,
 				ACD91CA01F905D8100933693 /* HKChatViewController+CellEnums.swift in Sources */,
+				ACC4DC4D1FB446F900EB887F /* HKChatTextCell+Constant.swift in Sources */,
 				ACB8299B1F8E064500BC8100 /* HKMessageModel.swift in Sources */,
 				ACD960331F8F10510025BFB6 /* HKChatSubModel.swift in Sources */,
 				ACC3063B1FB05E10001474E3 /* HKChatViewController+DataHandler.swift in Sources */,
